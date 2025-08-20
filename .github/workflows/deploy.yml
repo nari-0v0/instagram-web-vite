@@ -8,7 +8,6 @@ on:
 jobs:
   Deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Github repository 파일 불러오기
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
